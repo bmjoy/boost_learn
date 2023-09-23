@@ -33,8 +33,8 @@ if(NOT Boost_FOUND)
   endif()
 endif()
 
-add_executable (Timer1 "Timer1.cpp" "Timer1.h")
+add_executable (Timer2 "Timer2.cpp" "Timer2.h")
 
-target_link_libraries(Timer1 PUBLIC ${Boost_LIBRARIES})
+target_link_libraries(Timer2 PUBLIC ${Boost_LIBRARIES})
 
-target_include_directories(Timer1 PUBLIC ${Boost_INCLUDE_DIRS})
+target_include_directories(Timer2 PUBLIC ${Boost_INCLUDE_DIRS})
